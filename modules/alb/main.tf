@@ -5,7 +5,7 @@ resource "aws_security_group" "this" {
 
   ingress {
     from_port   = var.listener_port
-    to_port     = var.container_port
+    to_port     = var.target_port
     protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
