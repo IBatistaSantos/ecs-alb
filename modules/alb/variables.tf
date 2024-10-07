@@ -18,11 +18,6 @@ variable "listener_port" {
   type        = number
 }
 
-variable "container_port" {
-  description = "Porta do container"
-  type        = number
-  
-}
 
 variable "target_port" {
   description = "Porta do alvo"
