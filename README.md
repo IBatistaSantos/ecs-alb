@@ -67,8 +67,8 @@ Antes de começar, certifique-se de ter:
 ### 1. Clonar o Repositório
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/IBatistaSantos/ecs-alb.git
+cd ecs-alb
 ```
 
 ### 2. Configurar Variáveis
